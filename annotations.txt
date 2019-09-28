@@ -1,0 +1,15 @@
+## Gradle (Build Automation)
+./gradlew build - build the project
+./gradlew build <taskName> - execute given taskName task
+gradle init - initialize gradle project
+
+-----------------------------
+Including:
+
+plugins {
+  id 'com.moowork.node' version '1.2.0'
+}
+
+./gradlew nodeSetup - configurations to node project
+./gradlew npm_test - run node tests (using mocha)
+
